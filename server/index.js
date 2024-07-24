@@ -43,7 +43,7 @@ const transporter = nodemailer.createTransport({
 
 });
 // Connection URL
-const DB = "mongodb+srv://shoaibfarooka:Welcome5home.@cluster0.hrpczac.mongodb.net/ReportGenerator?retryWrites=true&w=majority";
+const DB = "";
 mongoose.connect(DB, {
     useNewUrlParser: true,
     useUnifiedTopology: true

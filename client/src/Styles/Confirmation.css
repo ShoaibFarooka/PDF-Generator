@@ -1,0 +1,48 @@
+.Confirmation {
+    text-align: center;
+}
+
+.Confirmation h1 {
+    margin-top: 15vh;
+    font-size: 24px;
+    color: #59315F;
+}
+
+.Confirmation .div1 {
+    color: #008000;
+    margin-top: 15px;
+    padding: 0px 5px;
+}
+
+.Confirmation .flex-div-column {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Confirmation ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+}
+
+.Confirmation .div2 {
+    margin-top: 90px;
+    font-weight: bold;
+}
+
+.Confirmation .div3 {
+    margin-top: 20px;
+}
+.Confirmation .redirect-btn {
+    background-color: #59315F;
+    color: white;
+    margin-top: 40px;
+    border: none;
+    padding: 6px 30px;
+    border-radius: 5px;
+}
+.Confirmation .redirect-btn:hover {
+    cursor: pointer;
+    background-color: #703479;
+}

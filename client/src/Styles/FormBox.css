@@ -1,0 +1,533 @@
+.FormBox {
+    width: 100vw;
+}
+
+.FormBox .header {
+    background-color: #59315F;
+    color: #ffffff;
+    padding: 7px 2px;
+}
+
+.FormBox .logo-div {
+    margin: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FormBox .empty-box {
+    width: 200px;
+    height: 70px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.FormBox .empty-box:hover,
+.FormBox .image-upload {
+    cursor: pointer;
+}
+
+.FormBox .bar:nth-child(1) {
+    padding-top: 30px;
+}
+
+.FormBox .bar {
+    border-bottom: 3px solid #59315F;
+
+}
+
+.FormBox input {
+    border: none;
+    background-color: transparent;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+.FormBox .form {
+    background-color: #F5F5F5;
+    padding: 0px 50px;
+    padding-bottom: 30px;
+}
+
+.FormBox .form div:nth-child(4) {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 70px;
+}
+
+.FormBox .form div:nth-child(4) input {
+    color: red;
+    font-size: 30px;
+}
+
+.FormBox .form div:nth-child(5) {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.FormBox .form div:nth-child(5) input {
+    color: rebeccapurple;
+    font-size: 30px;
+
+}
+
+.FormBox .form div:nth-child(6) {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.FormBox .form div:nth-child(6) input {
+    color: rebeccapurple;
+    font-size: 20px;
+}
+
+.FormBox .table-container {
+    /* overflow-x: scroll; */
+}
+
+/* Table 1 */
+.FormBox .table1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.FormBox .table1 td {
+    border: 2px solid rebeccapurple;
+    padding-bottom: 8px;
+}
+
+.FormBox .thead1 input {
+    width: 100%;
+    font-weight: 800;
+}
+
+.FormBox .tbody1 input {
+    width: 100%;
+}
+
+/* Table 2 */
+.FormBox .table2 {
+    margin-top: 100px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.FormBox .table2 td {
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+.FormBox .table2 .two-items .first-data {
+    border-right: 2px solid black;
+}
+
+.FormBox .table2 .two-items .last-data {}
+
+.FormBox .table2 .six-items td {
+    border-right: 2px solid black;
+}
+
+
+.FormBox .table2 .six-items td:nth-child(6) {
+    border-right: none;
+
+}
+
+.FormBox .table2 tbody input {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+
+}
+
+.FormBox .table2 tbody textarea {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    font-weight: bolder;
+    font-family: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+
+/* Table 3 */
+.FormBox .table3 {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.FormBox .table3 tbody td {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-bottom: 8px;
+}
+
+.FormBox .table3 .two-items .first-data {
+    border-right: 2px solid black;
+}
+
+.FormBox .table3 .two-items .last-data {}
+
+
+
+.FormBox .table3 thead input {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+
+}
+
+.FormBox .table3 tbody input {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+
+}
+
+.FormBox .table3 tbody textarea {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    font-weight: bolder;
+    font-family: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+/* Table 4 */
+.FormBox .table4 {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.FormBox .table4 tbody td {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-bottom: 8px;
+}
+
+.FormBox .table4 .two-items .first-data {
+    border-right: 2px solid black;
+}
+
+.FormBox .table4 .two-items .last-data {}
+
+
+
+.FormBox .table4 thead input {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+
+}
+
+.FormBox .table4 tbody input {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+
+}
+
+/* Table 5 */
+.FormBox .table5 {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.FormBox .table5 tbody td {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-bottom: 8px;
+}
+
+.FormBox .table5 .two-items .first-data {
+    border-right: 2px solid black;
+}
+
+.FormBox .table4 .two-items .last-data {}
+
+
+
+.FormBox .table5 thead input {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+
+}
+
+.FormBox .table5 tbody input {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.FormBox .briefdescinput {
+    width: 100%;
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.FormBox .briefdesctextarea {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 2px;
+    background-color: transparent;
+    resize: none;
+    border: 2px solid black;
+    margin-bottom: 80px;
+}
+
+.FormBox .signaturedeliveryinput {
+    width: 100%;
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 25px;
+}
+
+.FormBox .signaturepara {
+    width: 100%;
+    text-align: left;
+    color: red;
+    font-weight: bolder;
+    padding-top: 2px;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    margin-bottom: 5px;
+}
+
+/* Table 6 */
+.FormBox .table6 {
+    margin-top: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.FormBox .table6 tbody td {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-bottom: 8px;
+}
+
+.FormBox .table6 .two-items .first-data {
+    border-right: 2px solid black;
+}
+
+.FormBox .table6 .two-items .last-data {}
+
+.FormBox .table6 tbody input {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+/* Table 7 */
+.FormBox .table7 {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.FormBox .table7 tbody td {
+    border-top: 2px solid black;
+    padding-bottom: 8px;
+}
+
+.FormBox .table7 .two-items .first-data {
+    border-right: 2px solid black;
+}
+
+.FormBox .table7 .two-items .last-data {}
+
+.FormBox .table7 tbody input {
+    margin-top: 5px;
+    text-align: left;
+    width: 97%;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.FormBox .details-input {
+    text-align: left;
+    width: 99%;
+    font-weight: bolder;
+    color: white;
+    background-color: #59315F;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.FormBox .details-textarea {
+    text-align: left;
+    width: 99%;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    font-weight: bolder;
+    font-family: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.FormBox .bottom-bar {
+    border-bottom: 2px solid black;
+}
+
+.FormBox .upload-image-div {
+    margin-top: 40px;
+}
+
+.FormBox .upload-image-text {
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.FormBox .upload-image {
+    width: 130px;
+    height: 130px;
+}
+
+.FormBox .upload-image:hover {
+    cursor: pointer;
+}
+
+.FormBox .submit-btn-div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.FormBox .submit-btn {
+    background-color: #59315F;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.FormBox .submit-btn:hover {
+    cursor: pointer;
+    background-color: #3a1640;
+}
+
+.FormBox .footer {
+    background-color: #59315F;
+    color: #ffffff;
+    padding: 7px 10px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .FormBox .form {
+        padding: 0px 10px;
+        padding-bottom: 30px;
+    }
+
+    .FormBox .form div:nth-child(4) input {
+        font-size: 20px;
+    }
+
+    .FormBox .form div:nth-child(5) input {
+        font-size: 20px;
+
+    }
+
+    .FormBox .table-container {
+        overflow-x: scroll;
+    }
+
+    .FormBox .tbody1 input {
+        width: auto;
+    }
+
+    .FormBox .form div:nth-child(6) input {
+        font-size: 15px;
+    }
+
+    .FormBox .empty-box {
+        width: 60%;
+    }
+
+    .FormBox .table2 tbody input {
+        width: auto;
+    }
+
+    .FormBox .table3 tbody input {
+        width: auto;
+    }
+
+    .FormBox .table4 tbody input {
+        width: auto;
+    }
+
+    .FormBox .table5 tbody input {
+        width: auto;
+    }
+
+    .FormBox .table7 tbody input {
+        width: auto;
+    }
+
+    .FormBox .signaturepara {
+        overflow: scroll;
+    }
+
+
+
+}
